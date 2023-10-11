@@ -2,7 +2,7 @@
 
 >Languages: pure JavaScript + CSS<br/><br/>
 >Version: kSDL v2023.0722<br/><br/>
->kSDL Oficial Page: http://code-share.pt/kSDL/<br/><br/>
+>kSDL Oficial Page: http://code-share.pt/kSDL/v2023.0722/<br/><br/>
 >Author: Ivo Rubim - https://www.linkedin.com/in/ivorubim/<br/>
 
 ---
