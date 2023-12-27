@@ -2,8 +2,8 @@
 
 >Languages: pure JavaScript + CSS<br/><br/>
 >Version: kSDL v2023.0722 -> DEPRECATED VERSION<br/><br/>
->kSDL Oficial Page: http://code-share.pt/kSDL/<br/><br/>
->Author: Ivo Rubim - https://www.linkedin.com/in/ivorubim/<br/>
+>kSDL Oficial Page: https://appnexa.net/repository/kSDL/?f=fs37i<br/><br/>
+>Author: Ivo Rubim - https://appnexa.net/repository/ivorubim/?f=fs37i<br/>
 
 ---
 
