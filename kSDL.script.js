@@ -559,11 +559,11 @@ window.addEventListener("resize", function(){ kSDL.Container_Reposition(); });
 
 -- kSDL v2023.0722 --
 
-http://code-share.pt/kSDL/
+https://appnexa.net/repository/kSDL/
 
 by Ivo Rubim
 
-linkedin: https://www.linkedin.com/in/ivorubim/
+page: https://appnexa.net/repository/ivorubim/
 contact: rubim.ivo@gmail.com
 
 */
