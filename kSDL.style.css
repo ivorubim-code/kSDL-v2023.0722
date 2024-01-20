@@ -1,0 +1,220 @@
+a.kSDL-toggle{
+
+  color: #007bff !important;
+  text-decoration: none;
+  
+}
+a.kSDL-toggle:hover{
+
+  text-decoration: underline; 
+  cursor: pointer;
+
+}
+
+a.kSDL-toggle-zero{
+
+  @extend .kSDL-toggle;
+
+  color: #999999 !important;
+
+}
+
+/* Avoids UL checkbox list appears on page before `new__kSDL([]);` creator been called  */
+ul{ display: none;  }
+
+
+div.kSDL-container div, div.kSDL-container button, div.kSDL-container input, div.kSDL-container ul, div.kSDL-container li{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+div.kSDL-container
+{
+
+  background-color: #FFFFFF;
+  font-weight: normal;
+  border: 1px solid #666666;
+  border-radius: 0;
+
+  width: 300px;
+  height: auto;
+  max-height: 350px;
+  
+  margin-top: 2px;
+  left: 0px;
+  
+  position: absolute;
+
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  
+}
+
+div.kSDL-container div.kSDL-ctrl{
+  
+  text-align: left;
+  
+  width: 100%;
+  padding: 4px;
+
+  /* aux border */ border: 0px solid magenta;
+
+}
+
+div.kSDL-container div.kSDL-ctrl button{
+
+  font-size: 10px;
+  font-weight: normal;
+  text-align: center;
+  border-radius: 0;
+  
+}
+
+div.kSDL-container div.kSDL-ctrl button.kSDL-selection{
+  
+  color: #333333;
+  background-color: #cce4ff;
+  border: 1px solid #666666;
+  
+  width: 20%;
+  padding: 6px 10px;
+
+  display: inline-block;
+
+}
+div.kSDL-container div.kSDL-ctrl button.kSDL-selection:hover{  
+
+  color: #007bff;
+  background-color: #e6f2ff;
+  border: 1px solid #666666;
+
+  cursor: pointer;
+
+}
+
+div.kSDL-container div.kSDL-ctrl button.kSDL-clear{
+  
+  color: #333333;
+  background-color: #FFFFFF;
+  border: 1px solid #666666;
+  
+  width: 26px;
+  padding: 6px;
+  margin-left: -26px;
+
+  display: none;
+
+}
+div.kSDL-container div.kSDL-ctrl button.kSDL-clear:hover{ 
+
+  color: #FF0000;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  
+  cursor: pointer;
+  
+}
+
+div.kSDL-container div.kSDL-ctrl input:focus{ outline: none; }
+
+div.kSDL-container div.kSDL-ctrl input[type=text].kSDL-search{  
+
+  font-size: 10px;
+  font-weight: normal;
+  text-align: left;
+  
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #666666;
+  border-radius: 0;
+
+  width: 80%;
+  
+  padding: 6px 6px;
+  margin-left: -1px;
+  
+  display: inline-block;
+  
+}
+
+div.kSDL-container div.kSDL-ctrl input[type=text].kSDL-search-fail{
+
+  @extend .search;
+
+  color: #ec1313;
+  background-color: #fde7e7;
+
+}
+
+div.kSDL-container div.kSDL-list{
+
+  width: 100%;
+
+  flex: 1;
+  overflow-y: auto;
+
+  /* aux border */ border: 0px solid blue;
+
+}
+
+/*
+
+Alternative - To customize the container scrollbar (i prefer the default browsers appearance)
+
+div.kSDL-container div.kSDL-list::-webkit-scrollbar{ width: 12px; }
+div.kSDL-container div.kSDL-list::-webkit-scrollbar-track{ background: #f2f2f2; }
+div.kSDL-container div.kSDL-list::-webkit-scrollbar-thumb{ background: #999999; }
+div.kSDL-container div.kSDL-list::-webkit-scrollbar-thumb:hover{ background: #666666; }
+
+*/
+
+div.kSDL-container div.kSDL-list ul{
+
+  width: 100%;
+  list-style-type: none;
+
+  /* aux border */ border: 0px solid red;
+
+}
+
+div.kSDL-container div.kSDL-list ul li{
+  
+  padding: 4px 8px;
+  
+  display: flex;
+  align-items: center;
+
+  /* aux border */ border: 0px solid lime;
+
+}
+
+div.kSDL-container div.kSDL-list ul li:hover{
+
+  background-color: #e6e6e6;
+  cursor: default;
+
+}
+
+div.kSDL-container div.kSDL-list ul li input[type=checkbox].kSDL-item{ margin-right: 6px; }
+
+div.kSDL-container div.kSDL-list ul li input[type=radio].kSDL-item{ margin-right: 6px; }
+
+/*
+
+-- kSDL v2023.0722 --
+
+https://appnexa.net/dev/kSDL/
+
+by Ivo Rubim
+
+page: https://appnexa.net/dev/ivorubim/ 
+contact: rubim.ivo@gmail.com
+
+*/
